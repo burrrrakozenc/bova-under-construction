@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
+// import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
+// import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 // import ipad from '../assets/images/ipad.png';
@@ -25,11 +25,11 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
+          {/* <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
               About
             </a>
-          </Scroll>
+          </Scroll> */}
         </div>
       </div>
     </header>
@@ -114,9 +114,11 @@ const IndexPage = () => (
       </div>
     </section> */}
 
-    <Subscribe />
+    {/* <Subscribe /> */}
 
-    <SocialLinks />
+    <div id="signup">
+      <SocialLinks />
+    </div>
     <Footer />
   </Layout>
 );

@@ -14,14 +14,9 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-instagram-in',
+      icon: 'fa-instagram',
       name: 'Instagram',
       url: 'https://www.instagram.com/bova_sahne/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/bova_sahne',
     },
     {
       icon: 'fa-facebook-f',
@@ -29,7 +24,7 @@ module.exports = {
       url: 'https://tr-tr.facebook.com/bovasahne',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
+  email: 'brk.ozenc@gmail.com',
   phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  address: 'Şehit Muhtar, Mis Sk. No:17, 34435 Beyoğlu/İstanbul',
 };

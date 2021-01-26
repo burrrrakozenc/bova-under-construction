@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
-import Logo from '../assets/images/aa.png'
+import Logo from '../assets/images/aa.jpg'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -42,13 +42,12 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            <img style={{width:'50px', height:'50px'}} src={Logo} alt="BOVA"/>
+            <img style={{ width: '50px', height: '50px' }} src={Logo} alt="BOVA" />
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
-            className={`navbar-toggler navbar-toggler-right ${
-              openMenu ? '' : 'collapsed'
-            }`}
+            className={`navbar-toggler navbar-toggler-right ${openMenu ? '' : 'collapsed'
+              }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}
@@ -91,7 +90,7 @@ export default class Header extends Component {
                   element="signup"
                 >
                   <a className="nav-link" href="#signup">
-                    Contact
+                    İletişim
                   </a>
                 </Scroll>
               </li>
