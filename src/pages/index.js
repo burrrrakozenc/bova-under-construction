@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import bgMaster from '../assets/images/bovaCover.jpg';
 
 const IndexPage = () => (
   <Layout>
