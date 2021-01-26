@@ -9,10 +9,10 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bovaCover.jpg';
+// import ipad from '../assets/images/ipad.png';
+// import demoImage1 from '../assets/images/demo-image-01.jpg';
+// import demoImage2 from '../assets/images/demo-image-02.jpg';
+// import bgMaster from '../assets/images/bovaCover.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -34,7 +34,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="about" className="about-section text-center">
+    {/* <section id="about" className="about-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
@@ -112,7 +112,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <Subscribe />
 

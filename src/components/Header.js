@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import Logo from '../assets/images/aa.png'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +42,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+            <img style={{width:'50px', height:'50px'}} src={Logo} alt="BOVA"/>
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -61,7 +62,7 @@ export default class Header extends Component {
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
@@ -71,8 +72,8 @@ export default class Header extends Component {
                     About
                   </a>
                 </Scroll>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
@@ -82,7 +83,7 @@ export default class Header extends Component {
                     Projects
                   </a>
                 </Scroll>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
