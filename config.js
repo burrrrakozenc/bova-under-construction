@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/logo.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'YAPIM AŞAMASINDA',
-  subHeading: 'UNDER CONSTRUCTION',
+  heading: 'UNDER CONSTRUCTION',
+  // subHeading: 'UNDER CONSTRUCTION',
 
   // social
   socialLinks: [
@@ -24,7 +24,7 @@ module.exports = {
       url: 'https://tr-tr.facebook.com/bovasahne',
     },
   ],
-  email: 'brk.ozenc@gmail.com',
-  phone: '000-00000',
+  email: 'bovasahne@gmail.com',
+  phone: '+90 533 647 57 27',
   address: 'Şehit Muhtar, Mis Sk. No:17, 34435 Beyoğlu/İstanbul',
 };

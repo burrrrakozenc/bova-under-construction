@@ -41,9 +41,9 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          {/* <a className="navbar-brand" href="#page-top">
             <img style={{ width: '50px', height: '50px' }} src={Logo} alt="BOVA" />
-          </a>
+          </a> */}
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${openMenu ? '' : 'collapsed'
